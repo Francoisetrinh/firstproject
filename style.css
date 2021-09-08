@@ -1,0 +1,128 @@
+body{
+    /*background-color: #e4ecfa;
+    background-image: url(../img/fd-montagne-e4ecfa.jpg);
+    background-repeat: no-repeat;
+    background-position: top center; */
+    /*background-position: top center; */
+    background:#e4ecfa url(../img/fd-montagne-e4ecfa.jpg) top center no-repeat;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+header .principal a:link, .principal a:visited {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;   
+}
+.principal a:hover {
+    color:black;
+}
+
+.sommaire a:link, .sommaire a:visited{
+    color:red
+}
+
+.sommaire a {
+    text-decoration: none;
+}
+/*etat naturel du lien*/
+/*.sommaire a:link{
+    color: grey;
+}
+/*etat visite*/
+/*.sommaire a:visited{
+    color:grey;
+}
+/*etat survole*/
+/*.sommaire a:hover{
+    color: blue;
+}
+/*etat actif*/
+/*.sommaire a:active{
+    color: grey;
+}*/
+
+section .sommaire a:link, .sommaire a:visited {
+    color: violet;
+}
+section .sommaire a:hover{
+    color:goldenrod;
+}
+section .hautdepage {
+    color:greenyellow;
+}
+#Massifsetsommets, #Massifsetsommets h2{
+    background-color: rgb(60, 125, 190);
+    color: white
+}
+#Massifsetsommets figure {
+    background-color: darkblue;
+    border-color: darkblue;
+}
+#Massifsetsommets figcaption {
+    background-color: darkblue;
+    border-color: darkblue;
+}
+header{
+    color: white;
+    text-align: center;
+    /*height: 250px; */
+    /*padding-bottom: 150px; */
+    margin-bottom: 150px;
+}
+header h1{
+    text-shadow: 5px 10px 10px black;
+}
+section{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.753);
+    border-radius: 0 80px 0 0;
+    box-shadow: 5px 5px 5px rgb(54, 53, 53);
+    padding: 2em;
+    text-align: justify;
+    overflow: hidden;
+}
+section h2{
+    background-image:url(../img/puce-h1.png);
+    background-repeat: no-repeat;
+    padding-left: 130px;
+    color:rgb(30, 30, 30);
+    background-size: contain;
+}
+/*section h3{
+    clear: both;
+}*/
+section figure{
+    border: 5px grey solid;
+    margin:0;
+    width: 200px;
+    float:right;
+    background-color: lightgray;
+}
+section figure img{
+    width:100%;
+}
+section figure figcaption {
+    background-color: lightgray;
+    padding:.7em;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+section a.hautdepage{
+    clear:both;
+    display: block;
+}
+section .info{
+    background: url(../img/info.png) no-repeat lightskyblue;
+    padding-left: 60px;
+    background-size:2.5em;
+    min-height: 110px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
